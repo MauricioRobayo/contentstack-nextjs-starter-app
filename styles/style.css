@@ -8,7 +8,10 @@ body {
   line-height: 22px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: bold;
   letter-spacing: 0.2px;
 }
@@ -23,7 +26,8 @@ body h2 {
   line-height: 34px;
 }
 
-body h3, h4 {
+body h3,
+h4 {
   font-size: 18px;
   line-height: 24px;
 }
@@ -71,7 +75,8 @@ nav ul li a {
   font-weight: 600;
 }
 
-.top-section h2, .top-section p {
+.top-section h2,
+.top-section p {
   margin: 6px 0;
   padding: 0;
 }
@@ -123,8 +128,9 @@ header nav {
   overflow: hidden;
 }
 
-header nav li a:hover, header nav li a.active {
-  color: #715cdd;
+header nav li a:hover,
+header nav li a.active {
+  color: #0062c2;
 }
 
 .header-ul .hamburger-icon {
@@ -171,7 +177,8 @@ footer a {
   height: 400px;
 }
 
-.blog-roll, .blog-entry {
+.blog-roll,
+.blog-entry {
   font-size: 0.9em;
 }
 
@@ -201,30 +208,30 @@ footer a {
 }
 
 .primary-btn {
-  background: #715cdd;
+  background: #0062c2;
   color: #fff;
   cursor: pointer;
 }
 
 .primary-btn:hover {
-  background: #715cdd;
+  background: #0062c2;
   color: #fff;
   font-weight: 600;
 }
 
 .secondary-btn {
-  border: 1px solid #715cdd;
-  color: #715cdd;
+  border: 1px solid #0062c2;
+  color: #0062c2;
 }
 
 .secondary-btn:hover {
-  color: #715cdd;
+  color: #0062c2;
   font-weight: bold;
 }
 
 .tertiary-btn {
   background: #ffffff;
-  color: #715cdd;
+  color: #0062c2;
   font-weight: bold;
 }
 
@@ -274,7 +281,7 @@ footer a {
   margin-bottom: 12px;
 }
 
-.blog-list>a {
+.blog-list > a {
   text-align: center;
   width: 40%;
   background: #efefef;
@@ -285,7 +292,8 @@ footer a {
   max-width: 100%;
 }
 
-.blog-column-left, .blog-column-right {
+.blog-column-left,
+.blog-column-right {
   display: flex;
   flex-direction: column;
   padding: 60px;
@@ -313,7 +321,7 @@ footer a {
 }
 
 .blog-column-left .blog-content a {
-  color: #715cdd;
+  color: #0062c2;
 }
 
 /* blog individual page */
@@ -333,7 +341,7 @@ footer a {
 }
 
 .blogpost-readmore {
-  color: #715cdd;
+  color: #0062c2;
 }
 
 .card-cta {
@@ -351,13 +359,14 @@ footer a {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  background: #715cdd;
+  background: #0062c2;
   padding: 63px;
   color: #fff;
   flex-wrap: wrap;
 }
 
-.hero-content, .home-content {
+.hero-content,
+.home-content {
   text-align: left;
   margin-top: 65px;
   width: 475px;
@@ -401,7 +410,7 @@ footer a {
 
 .content-section a {
   font-weight: bold;
-  color: #715cdd;
+  color: #0062c2;
 }
 
 .home-featured-blogs {
@@ -439,7 +448,7 @@ footer a {
   inline-size: max-content;
 }
 
-.featured-content>p {
+.featured-content > p {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -491,7 +500,8 @@ footer a {
   width: 380px;
 }
 
-.mission-icon, .mission-section-content {
+.mission-icon,
+.mission-section-content {
   display: inline-block;
 }
 
@@ -573,18 +583,19 @@ footer a {
   width: 50%;
 }
 
-.contact-page-content>h2 {
+.contact-page-content > h2 {
   font-weight: bold;
   font-size: 44px;
   line-height: 56px;
 }
 
-.contact-page-content>p {
+.contact-page-content > p {
   font-size: 16px;
   color: #737b7d;
 }
 
-.input-fields, .text-field {
+.input-fields,
+.text-field {
   margin-bottom: 30px;
 }
 
@@ -611,7 +622,7 @@ footer a {
 /* blog list */
 
 .blog-page-banner {
-  background: #715cdd;
+  background: #0062c2;
   text-align: center;
 }
 
@@ -633,7 +644,8 @@ footer a {
   display: none;
 }
 
-.contact-page-section, .contact-maps-section {
+.contact-page-section,
+.contact-maps-section {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
@@ -676,7 +688,7 @@ footer a {
 }
 
 .modal-footer {
-  padding: .61rem .75rem;
+  padding: 0.61rem 0.75rem;
 }
 
 /* ========================== */
@@ -735,7 +747,8 @@ footer a {
     text-decoration: none;
   }
 
-  .header li a:hover, .header .menu-btn:hover {
+  .header li a:hover,
+  .header .menu-btn:hover {
     background-color: #f4f4f4;
   }
 
@@ -782,7 +795,8 @@ footer a {
     width: 18px;
   }
 
-  .header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
     background: #333;
     content: "";
     display: block;
@@ -800,24 +814,25 @@ footer a {
     top: -5px;
   }
 
-  .header .menu-btn:checked~nav {
+  .header .menu-btn:checked ~ nav {
     max-height: 240px;
     overflow: auto;
   }
 
-  .header .menu-btn:checked~.menu-icon .navicon {
+  .header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
   }
 
-  .header .menu-btn:checked~.menu-icon .navicon:before {
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
   }
 
-  .header .menu-btn:checked~.menu-icon .navicon:after {
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
   }
 
-  .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before, .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
 
@@ -858,15 +873,15 @@ footer a {
   }
 
   .secondary-btn {
-    border: 1px solid #715cdd;
-    color: #715cdd;
+    border: 1px solid #0062c2;
+    color: #0062c2;
   }
 
   .hero-banner {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
-    background: #715cdd;
+    background: #0062c2;
     padding: 28px;
     color: #fff;
     flex-wrap: wrap;
@@ -888,7 +903,7 @@ footer a {
     width: 90%;
   }
 
-  .blog-list>img {
+  .blog-list > img {
     max-width: 100%;
   }
 
@@ -896,7 +911,7 @@ footer a {
     margin: auto;
   }
 
-  .blog-list>a {
+  .blog-list > a {
     width: 100%;
   }
 
@@ -914,7 +929,7 @@ footer a {
     width: auto;
   }
 
-  .hero-banner>img {
+  .hero-banner > img {
     max-width: 100%;
     margin-top: 40px;
   }
@@ -925,7 +940,7 @@ footer a {
     width: 475px;
   }
 
-  .home-advisor-section>img {
+  .home-advisor-section > img {
     max-width: 100%;
     margin-top: 40px;
   }
@@ -959,7 +974,7 @@ footer a {
     margin: 12px;
   }
 
-  .featured-blog>img {
+  .featured-blog > img {
     width: 100%;
   }
 
@@ -1008,7 +1023,7 @@ footer a {
     text-align: center;
   }
 
-  .story-advisor-section>img {
+  .story-advisor-section > img {
     max-width: 100%;
   }
 
@@ -1039,7 +1054,8 @@ footer a {
     width: 100%;
   }
 
-  .contact-page-section, .contact-maps-section {
+  .contact-page-section,
+  .contact-maps-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1060,7 +1076,6 @@ footer a {
     top: 3.3rem;
     right: 2.5rem;
   }
-
 }
 
 /* ========================== */
@@ -1084,8 +1099,8 @@ footer a {
   }
 
   .secondary-btn {
-    border: 1px solid #715cdd;
-    color: #715cdd;
+    border: 1px solid #0062c2;
+    color: #0062c2;
   }
 
   body h1 {
@@ -1102,7 +1117,8 @@ footer a {
     letter-spacing: 0.1px;
   }
 
-  body h3, body h4 {
+  body h3,
+  body h4 {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
@@ -1116,7 +1132,7 @@ footer a {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background: #715cdd;
+    background: #0062c2;
     padding: 63px;
     color: #fff;
     flex-wrap: nowrap;
@@ -1134,7 +1150,7 @@ footer a {
     margin-top: 12px;
   }
 
-  .hero-banner>img {
+  .hero-banner > img {
     width: 50%;
     margin: 27px 0px 0px 0px;
   }
@@ -1148,7 +1164,7 @@ footer a {
     flex-wrap: nowrap;
   }
 
-  .home-advisor-section>img {
+  .home-advisor-section > img {
     width: 50%;
   }
 
@@ -1175,14 +1191,14 @@ footer a {
     margin: 4px 14px;
   }
 
-  .featured-blog>img {
+  .featured-blog > img {
     max-width: 100%;
     height: 260px;
     object-fit: cover;
     inline-size: max-content;
   }
 
-  .featured-content>p {
+  .featured-content > p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -1226,7 +1242,7 @@ footer a {
     padding: 0;
   }
 
-  .team-details>p {
+  .team-details > p {
     margin-top: -10px;
     margin-bottom: 50px;
   }
@@ -1250,7 +1266,7 @@ footer a {
     padding: 45px 0;
   }
 
-  .maps-details>img {
+  .maps-details > img {
     max-width: 100%;
   }
 
@@ -1286,7 +1302,7 @@ footer a {
     max-width: 100%;
   }
 
-  .blog-list>a {
+  .blog-list > a {
     text-align: center;
     background: #f2f2f2;
     display: block;
@@ -1346,7 +1362,7 @@ footer a {
 /* json preview css*/
 
 .object-key {
-  color: #C8501E;
+  color: #c8501e;
 }
 
 .string-value {
