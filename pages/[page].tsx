@@ -58,7 +58,6 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
         page: entryRes,
         time: Date.now(),
       },
-      revalidate: 1,
     };
   } catch (error) {
     return { notFound: true };
