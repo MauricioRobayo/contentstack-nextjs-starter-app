@@ -9,7 +9,6 @@ import { GetStaticPaths, GetStaticProps } from "next";
 export default function Page(props: Props & { time: number }) {
   const { page, entryUrl } = props;
   const [getEntry, setEntry] = useState(page);
-  console.log("time from server", new Date(props.time));
   async function fetchData() {
     try {
       const entryRes = await getPageRes(entryUrl);
@@ -21,6 +20,7 @@ export default function Page(props: Props & { time: number }) {
   }
 
   useEffect(() => {
+    console.log("time from server", new Date(props.time), page.title);
     onEntryChange(() => fetchData());
   }, [page]);
 
