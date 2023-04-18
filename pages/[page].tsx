@@ -9,7 +9,7 @@ import { GetStaticPaths, GetStaticProps } from "next";
 export default function Page(props: Props & { time: number }) {
   const { page, entryUrl } = props;
   const [getEntry, setEntry] = useState(page);
-  console.log("time from server", props.time);
+  console.log("time from server", new Date(props.time));
   async function fetchData() {
     try {
       const entryRes = await getPageRes(entryUrl);
@@ -58,25 +58,9 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
         page: entryRes,
         time: Date.now(),
       },
+      revalidate: 60,
     };
   } catch (error) {
     return { notFound: true };
   }
 };
-
-// export async function getServerSideProps({params}: any) {
-//   try {
-//       const entryUrl = params.page.includes('/') ? params.page:`/${params.page}`
-//       const entryRes = await getPageRes(entryUrl);
-//       if (!entryRes) throw new Error('404');
-//       return {
-//         props: {
-//           entryUrl: entryUrl,
-//           page: entryRes,
-//         },
-//       };
-
-//   } catch (error) {
-//     return { notFound: true };
-//   }
-// }
